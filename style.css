@@ -1,0 +1,458 @@
+body{
+	background: url(img/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+}
+*{
+	font-family: "Arial", sans-serif !important;
+}
+
+
+.wrapp{
+	background: rgba(0, 0, 0, 0.3);
+	margin: 50px auto;
+	width: 1140px;
+}
+
+.logo{
+	background: url(img/pt.png);
+	width: 246px;
+	height: 53px;
+	margin: 0 0 0 67px;;
+}
+
+.social p {
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	margin-right: 23px;
+}
+
+.social a.fb{
+	background: url(img/like.png);
+	width: 72px;
+	height: 20px;
+	margin-right: 29px;
+
+}
+
+.social a{
+	background: url(img/icons.png);
+	width: 16px;
+	height: 16px;
+	margin-top: -4px;
+}
+
+.social a, .social p, .social, .logo{
+	float: left;
+}
+
+
+a{
+	text-decoration: none;
+	display: block;
+}
+
+.transparent_header{
+	display: inline-block;
+	margin: 33px 0 32px;
+}
+
+.social{
+	margin: 22px 0 0 305px;
+	font-size: 11px;
+
+}
+.social a:not(:nth-child(2)){
+	margin-left: 3px;
+}
+
+.menu{
+	width: 1140px;
+	height: 40px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom: 5px solid rgba(0, 0, 0, 0.3);
+}
+
+.menu li{
+	float: left;
+	display: block;
+	text-align: center;
+	height: 15px;
+	border-right: 1px solid;
+	margin-top: 4px;
+	padding: 9px 14px;;
+
+}
+
+.menu li a {
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #FFF;
+}
+
+.menu li:first-child{
+	border-left: 1px solid black;
+
+}
+
+.search{
+	float: right;
+	width: 153px;
+	height: 26px;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 3px;
+	background-color: #fff;
+	outline: none;
+	padding: 4px;
+	box-sizing: border-box;
+	margin: 6px -11px;
+}
+
+.wrapp_content{
+	background-color: #fff;
+	height: 669px;
+	position: relative;
+}
+.img{
+	background: url(img/Layer-3.jpg);
+	width: 220px;
+	height: 120px;
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.black_frame{
+	width: 220px;
+	height: 70px;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	bottom: 0;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 0 1px 2px rgba(0,0,0,.75);
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+.entry{
+	font-size: 13px;
+	line-height: 18px;
+	color: #656565;
+	margin-top: 48px;
+}
+
+.comments{
+	height: 22px;
+	float: left;;;
+}
+
+.details{
+	width: 46px;
+	height: 20px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	background: #f4f4f4;
+	cursor: pointer;
+	box-shadow: 0 1px 0 #fff, 0 0 0 4px #eee;
+	color: #656565;
+	font-size: 9px;
+	line-height: 20px;
+	text-transform: capitalize;
+	display: inline-block;
+	text-align: center;
+	margin:0 15px 0 5px;
+	float: left;
+}
+
+.comments span{
+	background: url(img/comments.png);
+	width: 16px;
+	height: 15px;
+	display: block;
+	float: left;;
+}
+
+.comments p{
+	color: #555;
+	font-size: 11px;
+	font-weight: bold;
+	display: block;
+	float: left;;
+
+}
+
+.date *{
+	display: inline-block;
+	color: #b8b8b8;
+}
+
+.date span{
+	color: #555;
+}
+
+
+.date{
+	margin-bottom: 16px;
+}
+
+
+
+.text{
+	margin-bottom: 15px;
+}
+
+.comments * {
+	margin: 4px 3px 0 0;
+}
+
+
+hr{
+	background: #e5e5e5;
+	border: none;
+	height: 1px;
+	margin: 61px 0 57px 0;
+}
+
+
+footer{
+	width: 1140px;
+	height: 382px;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+
+.purchase{
+	background: url(img/purchase.png);
+	width: 243px;
+	height: 64px;
+	outline: none;
+	border: none;
+	float: right;
+
+}
+
+
+h1.descr{
+	color: #555;
+	font-size: 24px;
+	display: block;
+	width: 620px;
+	float: left;
+}
+
+
+
+footer{
+	color: #fff;	
+	font-size: 13px;
+	text-shadow: 0 1px 1px #000;
+	line-height: 18px;
+
+}
+
+footer h1{
+	text-shadow: none;
+	font-size: 18px;
+	text-transform: capitalize;
+}
+
+footer .quote p{
+	width: 261px;
+	float: left;
+	font-size: 14px;
+	margin: -24px 0 0 31px;
+}
+
+footer .footer_h1 + p, .footer_h1{
+	margin-bottom: 14px;
+}
+
+.footer_h1{
+	margin-top: 29px;
+}
+
+.get_in_touch form{
+	width: 300px;
+	height: 199px;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.3);
+	box-sizing: border-box;
+	padding: 11px;
+}
+
+.get_in_touch textarea{
+	width: 278px;
+	height: 70px;
+	resize: none;
+}
+
+.get_in_touch input{
+	width: 168px;
+	height: 24px;
+}
+
+.get_in_touch input, .get_in_touch textarea{
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 4px;
+	background: #fff;
+	box-shadow: inset 0 2px 5px rgba(0,0,0,.1);
+	outline: none;
+	box-sizing: border-box;
+	margin-bottom: 7px;
+	padding: 5px;
+	color: #878787;
+	font-size: 11px;
+
+}
+
+input[type="submit"]{
+	width: 59px;
+	height: 26px;
+	text-transform: uppercase;
+	font-size: 11px;
+	color: #656565;
+	margin: 1px 4px 0 0;
+	padding: 0;
+	float: right;
+	box-shadow: inset 0 0 0 1px rgba(0,0,0,.13);
+}
+
+
+form > label{
+	color: #a9a9a9;
+	font-size: 11px;
+}
+
+
+footer hr{
+	margin: 68px 0 13px 0;
+	background: #877f7b;
+}
+
+.recent_works img:nth-child(3){
+	margin: 5px 0 0 1px;
+}
+
+
+.recent_works img:nth-child(5){
+	margin-left: 0px;
+}
+
+input[name="name"]{
+	margin-top: 5px;
+}
+
+.wrapp_copy *{
+	font-size: 11px;
+	display: inline-block;
+}
+
+.wrapp_copy a{
+	font-size: 11px;
+	color: #fff;
+	
+	text-decoration: underline;
+}
+
+.wrapp_copy .link_author{
+	position: relative;
+	left: 614px;
+	color: #fff;
+}
+
+
+.year>li>a {
+	/*cursor: pointer;
+	pointer-events: none;*/
+}
+
+.year>li>a{
+	color: #E0DBDB;
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 60px;
+	float: left;
+	width: 54px;
+	height: 60px;
+}
+
+.year > li{
+	float: left;
+
+}
+
+.timeline{
+	width: 1140px;
+	height: 60px;
+	background-color: #8f4c7a;
+}
+
+.month li{
+	float: left;
+	width: 40px;
+	height: 60px;
+	background-color: rgba(0, 0, 0, 0.25);
+	text-align: center;
+}
+
+.month li a{
+	color: #D0CCCC;
+	font-size: 11px;
+	line-height: 60px;
+	text-transform: uppercase;
+}
+
+.month{
+	width: 534px;
+	display: none;
+
+}
+ li.active a, .month li a:hover, .year  a.active {
+	background-color: rgba(0, 0, 0, 0.25);
+	color: #fff;
+	transition-duration: 0.3s;
+}
+
+
+ .year  a:hover{
+	color: #fff;
+	transition-duration: 0.3s;
+}
+
+.arrow{
+	background: url(img/arrow.png) no-repeat;
+	height: 120px;
+	width: 21px !important;
+	position: absolute;
+	cursor: pointer;
+	margin: 79px 0 0 47px;
+}
+
+.arrow.right{
+	transform: rotate(180deg);
+	right: 0;
+	margin-right: 50px;;
+}
+
+.dropdown{
+	background: url(img/arrow-1.png);
+	width: 9px;
+	height: 9px;
+	display: inline-block;
+}
+
+
+
+
+.year li a:focus ~  .month,
+
+.year li a:focus ~  .month a:focus{
+	display: block;
+}
+
+.year li a:focus{
+	background: rgba(0, 0, 0, 0.25);
+}
+

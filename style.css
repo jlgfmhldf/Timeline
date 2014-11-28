@@ -421,20 +421,30 @@ input[name="name"]{
 	transition-duration: 0.3s;
 }
 
-.arrow{
+.owl-prev{
+
+	margin: 79px 0 0 -47px;
+	
+}
+
+.owl-next{
+
+	margin: 79px 0 0 47px;
+	transform: rotate(180deg);
+	right: 0;
+	margin-right: 50px;
+
+}
+
+.owl-prev, .owl-next{
 	background: url(img/arrow.png) no-repeat;
 	height: 120px;
 	width: 21px !important;
 	position: absolute;
 	cursor: pointer;
-	margin: 79px 0 0 47px;
+	top: 0;
 }
 
-.arrow.right{
-	transform: rotate(180deg);
-	right: 0;
-	margin-right: 50px;;
-}
 
 .dropdown{
 	background: url(img/arrow-1.png);
